@@ -31,10 +31,7 @@ body_ahover {
   color: #1c86d8;
   text-decoration: underline;
 }
-td,
-th,
-p,
-li {
+td, th, p, li {
   font: 12px verdana, geneva, lucida, "lucida grande", arial, helvetica,
     sans-serif;
 }
