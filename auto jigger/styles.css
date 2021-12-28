@@ -4,27 +4,24 @@
 
     background: #918080;
     border: 4px solid #8b6e6e;
-    padding: 1%;
+    padding: 0.5%;
     display: inline
 }
 
+div {
+    margin: 20px;
+}
 body {
     background-color: darkgray;
 
     text-align: center;
     font-family: "Segoe UI", "Arial", "sans-serif";
-    
-    position: relative;
-    top: 10px
 }
 
 form {
     width: 75%;
     margin-left: auto; 
 	margin-right: auto; 
-
-    position: relative;
-    top: 20px;
 
     background: #918080;
     border: 4px solid #8b6e6e;
@@ -40,16 +37,15 @@ input {
     border-radius: 4px;
 }
 
-input[type=submit] {
-    size: 3%;
-}
-
 #amount {
     width: 60px;
 }
 
 #output {
-    color: #b1a5a5;
-    /* display:none; */
+    color: #000000;
+    display:none;
+    width: 75%;
     height: auto;
+    resize: none;
+    border: 4px solid #8b6e6e;
 }
